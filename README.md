@@ -1,4 +1,4 @@
-Projeto Informática e negócios
+<h1>Projeto Informática e negócios</h1>
 Barbearia
 
 Projeto site barbershop (Our Studio_Wt) CNPJ:50108193000177 - W barbershop
