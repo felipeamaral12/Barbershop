@@ -5,9 +5,9 @@ Projeto site barbershop (Our Studio_Wt) CNPJ:50108193000177 - W barbershop
 
 Disciplinas: Informática e Negócios - Prof.PhD. Bruno Zolotareff dos Santos; Comunicação e Expressão: Professora Andreza Maria de Souza Rocha; Administração Geral Prof. Jairo Gonçalves Duarte - Fatec Mauá
 
-URL projeto: https://github.com/felipeamaral12/barbershop.git
+URL projeto:https://github.com/felipeamaral12/Barbershop.git
 
-URL site:https://felipeamaral12.github.io/barbershop/
+URL site:https://felipeamaral12.github.io/Barbershop/Index.html
 
 Integrantes:
 
