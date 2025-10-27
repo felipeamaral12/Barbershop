@@ -11,14 +11,14 @@ URL site:https://felipeamaral12.github.io/Barbershop/Index.html
 
 Integrantes:
 
-Beatriz Damaceno Jardim
-Carlos Tailleson de Santana
-Felipe Amaral Alves
-Gustavo Campos Lopes Passos
-Lucas Pessoa de Freitas
-Nicolas Fernando Lopes
-Pietra Rodrigues Barros
-Sérgio da Silva dos Santos
-Talita Ribeiro Macedo
+Beatriz Damaceno Jardim <br>
+Carlos Tailleson de Santana <br>
+Felipe Amaral Alves <br>
+Gustavo Campos Lopes Passos <br>
+Lucas Pessoa de Freitas <br>
+Nicolas Fernando Lopes <br>
+Pietra Rodrigues Barros <br>
+Sérgio da Silva dos Santos <br>
+Talita Ribeiro Macedo <br>
 
 Decorrente a proposta do projeto integrador no curso de Informática para negócios na Fatec Mauá,será efetuada a criação de um website com o conteúdo aprendido em sala. Nosso site criado a partir de um CNPJ real e ativo de barbearia, utilizando as tecnologias HTML, CSS e Java Script.
