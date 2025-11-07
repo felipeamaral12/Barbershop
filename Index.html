@@ -1,82 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
+<html lang="pt-br">
+  <head>
     <!-- Meta tags Obrigatórias -->
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-   <title>Barbershop</title> 
+
     
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: "Poppins", sans-serif;
-        }
- 
-        body {
-            background-color: #f5f5f5;
-            color: #333;
-        }
- 
-        /* Cabeçalho */
-        header {
-            background-color: #111;
-            color: #fff;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 40px;
-        }
- 
-        header img {
-            width: 60px;
-            height: 60px;
-            margin-right: 15px;
-        }
- 
-        .logo {
-            display: flex;
-            align-items: center;
-        }
- 
-        .logo h1 {
-            font-size: 1.8em;
-        }
- 
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 25px;
-        }
- 
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
- 
-        nav ul li a:hover {
-            color: #d4a017;
-        }
- 
-        /* Seção principal */
-        .hero {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: url('https://images.unsplash.com/photo-1621605815971-2e09b2e5c2d7?auto=format&fit=crop&w=1350&am…') center/cover no-repeat;
-            height: 70vh;
-            color: white;
-            text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
-            flex-direction: column-reverse;
-        }
- 
-        /* Serviços */
+    
+    <title>Barbershop</title>
+  </head>
+  <style>
+
+    /* Serviços */
         .servicos {
             text-align: center;
             padding: 60px 20px;
@@ -114,83 +52,24 @@
             padding: 10px;
             background-color: #111;
             color: #fff;
-        }
- 
-        /* Trabalhe Conosco */
-        .trabalhe {
-            background-color: #eaeaea;
-            padding: 60px 20px;
-            text-align: center;
-        }
- 
-        .trabalhe h2 {
-            margin-bottom: 30px;
-        }
- 
-        form {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
- 
-        input[type="text"], input[type="tel"], input[type="email"] {
-            padding: 10px;
-            width: 250px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
- 
-        button {
-            padding: 10px 20px;
-            background-color: #111;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
- 
-        button:hover {
-            background-color: #d4a017;
-        }
- 
-        /* Endereço */
+        }  
+
+    /* Endereço */
         .endereco {
             background-color: #111;
             color: #fff;
             text-align: center;
             padding: 10px 10px;
         }
- 
+        
         .endereco p {
             margin: 5px 0;
         }
- 
-        /* Seções âncoras */
-        section {
-            scroll-margin-top: 100px;
-        }
- 
-        @media (max-width: 768px) {
-            nav ul {
-                flex-direction: column;
-                gap: 10px;
-                align-items: flex-end;
-            }
-            .servicos-container {
-                flex-direction: column;
-                align-items: center;
-            }
-            form {
-                flex-direction: column;
-                align-items: center;
-            }
-        }
-    </style>
-</head>
-<body>
- 
+
+  </style>
+  
+  <body>
+
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
         <img src="img/barbershop_logo1.jpeg" alt="logo-barbershop" style="width: 70px; height: 70px; border-radius: 10px;   ">
   <a class="navbar-brand" href="https://felipeamaral12.github.io/Barbershop/Index.html">Our Studio</a>
@@ -214,92 +93,53 @@
   </div>
 </nav>
 
-    <!-- Cabeçalho -->
-     <!--
-    <header>
-        <div class="logo">
-            <img src="https://www.shutterstock.com/image-vector/vector-illustration-advertisements-male-beauty-600nw-2265915349.jpg" alt="Logo Barbearia">
-            <h1>Barbearia Estilo Fino</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#quem-somos">Quem Somos</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#trabalhe">Trabalhe Conosco</a></li>
-                <li><a href="#endereco">Endereço</a></li>
-            </ul>
-        </nav>
-    </header>
--->
-    
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide container py-1 border-0 rounded-5" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
+  <div class="carousel-inner img-fluid rounded" style="width: 1000px; height: 550px;">
+    <div class="carousel-item active" style="margin-left: 110px;">
       <img class="d-block w-100" src="img/salao_barber.jpeg" alt="Primeiro Slide">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item" style="margin-left: 110px;">
       <img class="d-block w-100" src="img/corte-slide.jpg" alt="Segundo Slide">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item" style="margin-left: 110px;">
       <img class="d-block w-100" src="img/barber-slide3.jpg" alt="Terceiro Slide">
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <a class="carousel-control-prev" style="width: 300px; height: 550px;" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Anterior</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next" style="width: 300px; height: 550px;" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Próximo</span>
   </a>
 </div>
-    
-    <!-- Imagem principal -->
-     <!--
-    <section class="hero" id="quem-somos">
-        <img src="https://barbers.higherbooking.com/ampellbarbershop/wp-content/uploads/2025/07/HeroIMage.jpg" alt="loja" height="80%" width="80%"  >
-        <h2>Excelência em cortes e estilo masculino</h2>
-    </section>
- 
--->
 
-    <!-- Serviços -->
+<!-- Serviços -->
     <section class="servicos" id="servicos">
         <h2>Nossos Serviços</h2>
         <div class="servicos-container">
             <div class="servico">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzGZfKPKI_o95RZMPj4YKilAh_WtHzCQ_3Aw&s" alt="Corte de Cabelo">
+                <img src="img/srv_corte_de_cabelo.jpeg" alt="Corte de Cabelo">
                 <h3>Corte de Cabelo</h3>
             </div>
             <div class="servico">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPxHryj3lRKNdiMSNyPVq68-AEPeVyjTzZnQ&s" alt="Barba">
+                <img src="img/srv_barba.jpeg" alt="Barba">
                 <h3>Barba</h3>
             </div>
             <div class="servico">
-                <img src="data:image/jpeg;base64,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" alt="Química">
+                <img src="img/quimica_capilar_new.jpeg" alt="Química">
                 <h3>Química</h3>
             </div>
         </div>
     </section>
-    
 
-    <!-- Trabalhe Conosco
-    <section class="trabalhe" id="trabalhe">
-        <h2>Trabalhe Conosco</h2>
-        <form>
-            <input type="text" placeholder="Nome" required>
-            <input type="tel" placeholder="Telefone" required>
-            <input type="email" placeholder="E-mail" required>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-    -->
- 
+
     <!-- Endereço -->
     <section class="endereco" id="endereco">
        
@@ -307,12 +147,11 @@
         <p>✉️ contato@ourstudio.com</p>
         <p>📍 Rua Ivo Rogério, 132 - Jardim Quarto Centenário - Mauá - SP</p>
     </section>
-    <!--
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.3453347798627!2d-46.46269972544291!3d-23.663605278729687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce69426dbe06a3%3A0xf0b5c494be47ae58!2sFaculdade%20de%20Tecnologia%20de%20Mau%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1761914669669!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    -->
- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-</body>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
