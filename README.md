@@ -24,7 +24,7 @@ O projeto consiste na criação de um **site institucional** para uma barbearia 
 
 ## 🌐 Links Importantes
 
-🔗 **Repositório do Projeto:** [GitHub - SITE-BARBEARIA](https://github.com/felipeamaral12/Barbershop.git)  
+🔗 **Repositório do Projeto:** [GitHub - Barbershop](https://github.com/felipeamaral12/Barbershop.git)  
 🚀 **Site Publicado:** [Acessar o Site](https://felipeamaral12.github.io/Barbershop/Index.html)
 
 ---
