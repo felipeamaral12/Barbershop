@@ -24,8 +24,8 @@ O projeto consiste na criação de um **site institucional** para uma barbearia 
 
 ## 🌐 Links Importantes
 
-🔗 **Repositório do Projeto:** [GitHub - SITE-BARBEARIA](https://github.com/LucasPessoa68/SITE-BARBEARIA)  
-🚀 **Site Publicado:** [Acessar o Site](https://lucaspessoa68.github.io/SITE-BARBEARIA/Barbearia/Barbearia/index.html)
+🔗 **Repositório do Projeto:** [GitHub - SITE-BARBEARIA](https://github.com/felipeamaral12/Barbershop.git)  
+🚀 **Site Publicado:** [Acessar o Site](https://felipeamaral12.github.io/Barbershop/Index.html)
 
 ---
 
